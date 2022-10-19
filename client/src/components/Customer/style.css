@@ -1,0 +1,13 @@
+.product .option{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+.product .option .primary{
+    
+    
+}
+.product .option .search{
+   max-width: 500px;
+   flex: 1;
+}

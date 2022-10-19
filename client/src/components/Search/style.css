@@ -1,0 +1,43 @@
+.search-data .item-add{
+    font-size: 16px;
+    text-align: left;
+    font-weight: 600;
+    margin: 0 10px;
+}
+.search-data{
+    color: #0088FF;
+}
+.search-data .item-search-data{
+    display: flex;
+    font-size: 25px;
+    padding: 0 10px;
+    border-bottom: 1px solid rgba(196, 194, 194, 0.637);
+}
+.search-data .item-search-data:hover{
+    background-color: #e6f4ff;
+
+}
+.search-data .item-search-data p{
+    text-align: left;
+    font-size: 14px;
+    color: black;
+    font-weight: 0;
+    margin-top: 12px;
+    margin-left: 10px;
+}
+.icon-search-data{
+    margin: auto 0;
+}
+.main-item-data .mskh{
+    padding-top: 4px;
+    font-weight: 500;
+
+}
+.main-item-data .name-kh{
+    padding-top: 4px;
+    font-weight: 450;
+    
+}
+.search-data.hide{
+    display: none;
+}

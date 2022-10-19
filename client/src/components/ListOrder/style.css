@@ -1,0 +1,27 @@
+.list-oderhanding{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.item-oder-handing{
+    padding-bottom: 1px;
+
+}
+.item-oder-handing p{
+    
+    font-size: 13px;
+    color: #747C87;
+    margin: 0;
+    margin-top: 5px;
+    
+}
+.item-oder-handing h6{
+   margin-top: 17px;
+   font-size: 14px;
+   margin-bottom: 20px;
+    
+}
+.item-oder-handing p span{
+    color: #0088FF ;
+    
+}

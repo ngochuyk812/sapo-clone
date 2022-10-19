@@ -1,0 +1,35 @@
+hr{
+    margin: 0;
+}
+.turnover{
+    box-shadow: 0px 2px 4px 5px rgb(168 168 168 / 25%);
+    height: 400px;
+}
+.tab-header{
+    display: flex;
+    
+}
+.tab-header .item-tab{
+    height: 45px;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+    font-weight: 500;
+    cursor: pointer;
+
+}
+.tab-header .item-tab.active{
+    border-bottom: 2px solid rgb(0 136 255);
+    
+
+
+}
+.tab-content{
+    padding-top: 40px;
+}
+@media (max-width:610px){
+    .item-tab {
+        font-size: 11px;
+        
+    }
+}

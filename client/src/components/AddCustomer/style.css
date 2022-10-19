@@ -1,0 +1,154 @@
+.addcustomer{
+    background-color: rgba(126, 125, 125, 0.329);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    z-index: 3;
+    
+
+
+
+}
+.container-info-customer{
+    z-index: 2;
+
+}
+.addcustomer.hide{
+    display: none;
+}
+.form-addcustomerform-addcustomer{
+    padding-top: 70px;
+}
+.contaienr-addcustomer{
+    background-color: white;
+    width: 700px;
+    height: 555px;
+    margin: auto;
+    
+}
+.title-addcustomer{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 12px;
+
+    
+    
+}
+.title-addcustomer p{
+    font-size: 20px;
+
+    
+}
+.form-addcustomer .customer-info-content .input-main {
+    padding: 0;
+}
+.form-group label{
+    color: #46515f;
+}
+.form-addcustomer .customer-info-content .input-main input{
+    padding: 0;
+    color: black;
+}
+
+.form-addcustomer .customer-info-content input:hover{
+    outline: none;
+    border: solid 1px rgb(25 118 210);
+}
+
+
+
+.title-addcustomer .icon-exit{
+    margin-top: 10px; 
+    cursor: pointer;
+}
+.form-addcustomer{
+    padding: 20px;
+    padding-top: 55px;
+
+}
+
+.form-addcustomer .form-group label{
+    font-size: 14px;
+    margin-bottom: 0px;
+    text-align: left;
+
+    
+}
+
+.form-addcustomer .form-group.yeucau label::after{
+   content: '*';
+   color: red;
+    
+}
+#demo-simple-select-label{
+    margin-top: -10px;
+}
+:focus:not(:focus-visible) {
+    outline: 0;
+}
+#demo-simple-select{
+    padding: 5px;
+    font-size: 12px;
+    text-align: left;
+    padding-left: 20px;
+
+}
+.MuiMenuItem-root{
+    font-size: 12px;
+
+}
+.form-addcustomer .form-group {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-bottom: 20px;
+
+}
+
+
+.form-addcustomer .form-group input {
+    height: 30px;
+    padding: 0;
+}
+
+.formname-sdt{
+    display: flex;
+    justify-content: space-between;
+}
+.formname-sdt .form-group:nth-child(1){
+    margin-right: 10px;
+}
+.buttonaddcustom{
+    display: flex;
+    justify-content: end;
+    margin-top: 10px;
+    
+}
+.bt-cannel{
+    padding: 8px 20px;
+    border: solid 1px rgb(25 118 210);
+    color: rgb(25 118 210);
+    font-weight: 600;
+    cursor: pointer;
+    margin-right: 10px;
+    height: 25px;
+    font-size: 15px;
+}
+.bt-add-customer{
+    padding: 8px 20px;
+    border: solid 1px rgb(25 118 210);
+    background-color: rgb(25 118 210);
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    height: 25px;
+    font-size: 15px;
+}
+.bt-add-customer:hover,
+.bt-cannel:hover{
+    opacity: 0.8;
+}

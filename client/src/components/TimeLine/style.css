@@ -1,0 +1,40 @@
+.item-timeline h6{
+    font-size: 14px;
+    text-align: left;
+    margin: 0;
+    font-weight: normal;
+}
+.item-timeline p{
+    font-size: 14px;
+    text-align: left;
+    margin: 0;
+
+} 
+.item-timeline {
+    position: relative;
+    padding-left: 40px;
+    margin-bottom: 20px;
+}
+
+.item-timeline::before{
+     content: '';
+     position: absolute;
+    top: 0;
+    left: 10px;
+     width: 20px;
+     height: 20px;
+     border-radius: 50%;
+    background-color: red;
+    box-shadow: 5px 5px 5px 5px #ddeffd;
+    background-color: rgb(4, 138, 255);
+
+
+}
+.item-timeline::after{
+    content: '';
+    position:absolute;
+   top: 21px;
+   left: 19px;
+   height: 70px;
+   border-left: dashed 2px rgb(4, 138, 255);
+}

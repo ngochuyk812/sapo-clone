@@ -1,0 +1,218 @@
+.apply-promotion .icon-gift{
+    font-size: 19px;
+    margin: auto 0;
+    margin-right: 5px;
+}
+.apply-promotion span{
+    display: flex;
+    color: #0088FF;
+
+    font-size: 14px;
+    padding: auto;
+    cursor: pointer;
+}
+.apply-promotion span p{
+    font-weight: 500;
+}
+.bill{
+    padding: 0 10px;
+}
+
+.container-bill{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 14px;
+    padding: 0 20px;
+    
+}
+.left-bill{
+    width: 49%;
+    
+}
+.left-bill .content-tags{
+    border: solid 1px #d3d5d7;
+    
+    min-height: 60px;
+    padding: 0 10px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+
+}
+.name-tags{
+    margin: 0;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #46515f;
+}
+.left-bill .content-tags{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 320px;
+}
+.left-bill .content-tags .item-tags{
+    position: relative;
+    padding: 0 10px;
+    padding-right: 24px;
+    background-color: #d9edff;
+    max-height: 23px;
+    margin: 0 5px;
+    border-radius: 26px;
+    font-size: 14px;
+}
+.left-bill .content-tags .item-tags p{
+    margin: 0;
+    white-space: nowrap; 
+    max-width: 100px; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+        
+  
+}
+.left-bill .content-tags .item-tags .icon-del-tags{
+    position: absolute;
+    right: 6px;
+    top: 3px;
+    color: #0088FF;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+.left-bill .content-tags input{
+    max-height: 20px;
+    outline: none;
+    border: none;
+}
+.left-bill .content-tags:hover{
+    border: solid 1px #0088FF;
+    
+}
+
+
+.left-bill p{
+    text-align: left;
+}
+.textarea-note:focus{
+    outline: none;
+    border: none;
+}
+.textarea-note{
+    outline: none;
+    border: none;
+    border: solid 1px #d3d5d7;
+
+    width: 100%;
+}
+.right-bill{
+    width: 320px;
+}
+.itembill{
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+
+
+}
+.itembill.maxh{
+    height: 28px;
+
+}
+.itembill .colorAqua{
+    color: #0088FF;
+    cursor: pointer;
+}
+.itembill p{
+    font-size: 14px;
+
+}
+.itembill select{
+    border: none;
+    cursor: pointer;
+
+}
+.itembill select{
+    border: none;
+    cursor: pointer;
+
+}
+:focus-visible {
+    border: none;
+    outline: none;
+  }
+  
+  :focus:not(:focus-visible) {
+    outline: 0;
+  }
+.itembill select:focus-visible{
+    border: none;
+    cursor: pointer;
+
+}
+.itembill.flex{
+    display: flex;
+    flex-direction: column  ;
+    }
+.itembill .icon-del-tags{
+    font-size: 24px;
+    margin-bottom: -8px;
+    color: red;
+}
+.icon-add-payment{
+    margin-right: 5px;
+    margin-bottom: -2px;
+    margin-left: 5px;
+}
+.payment-method{
+    height: 100%;
+    flex: 1;
+}
+.itembill.flex p{
+   text-align: left;
+   height: auto;
+}
+.payment-method{
+    flex: 1;
+    height: auto;
+}
+.itembill.bold{
+    font-weight: 600;
+
+}
+.packing-delivery p{
+    text-align: left;
+}
+.packing-delivery {
+    padding-left: 20px;
+}
+.item-delivery{
+    display: flex;
+    width: 230px;
+    padding: 18px 10px;
+    padding-left: 20px;
+    border-radius: 10px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    cursor: pointer;
+    padding: 10px 15px;
+}
+.item-delivery .icons{
+    margin-bottom: -20px;
+    margin-right: 5px;
+    font-size: 20px;
+    margin-top: 5px;
+    
+}
+.item-delivery p{
+    margin: 0;
+    margin-top: -10px;
+    font-size: 14px;
+    font-weight: 600;
+    
+}
+.items-delivery{
+    display: flex;flex-wrap: wrap;
+}
+.item-delivery.active{
+    background-color: #0088FF;
+    color: white;
+}

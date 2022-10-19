@@ -1,0 +1,8 @@
+.select-item-option.items-topproduct{
+    padding: 0;
+}
+.topproduct{
+    flex: 1;
+    min-width: 320px;
+    
+}

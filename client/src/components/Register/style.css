@@ -1,0 +1,44 @@
+.notify-main{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(156, 156, 156, 0.425);
+}
+.notify{
+    background-color: white;
+    width: 400px;
+    height: 200px;
+    z-index: 7;
+    border-radius: 10px;
+    border: black 1px solid;
+    padding: 28px 40px;
+
+}
+.notify .title-notify{
+    font-size: 18px;
+    padding-bottom: 0px;
+    margin-bottom: 4px;
+    font-weight: 600;
+}
+.notify .content-notify{
+    margin-top: 0;
+    padding-top: 0;
+}
+.notify button{
+    padding: 6px 40px;
+    outline: none;
+    border: none;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px #346ecf;
+}
+.notify i{
+    font-size: 30px;
+}

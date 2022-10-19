@@ -1,0 +1,21 @@
+.oderpending{
+    margin-top: 20px;
+}
+.item-oder svg{
+    width: 21px;
+    height: 21px;
+    color: #0088FF;
+}
+.item-oder p{
+   font-size: 12.6px;
+   margin: 0;
+}
+.item-oder h6{
+   font-size: 14px;
+   margin: 0;
+}
+.bottom-oderpending{
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-around;
+}

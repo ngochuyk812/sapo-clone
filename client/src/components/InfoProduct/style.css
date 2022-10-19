@@ -1,0 +1,40 @@
+.product-info .input-main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+ .product-info  .container-input{
+     flex: 1;
+     padding-right: 100px;
+    
+}
+.button-addproduct{
+    width: 200px;
+    padding: 8px 12px;
+    border-radius: 7px;
+    
+    color: #0088FF;
+    border: solid 1px #0088FF;
+}
+.item-show-product table{
+    min-width: 100%;
+}
+.item-show-product table  p{
+    color: black;
+}
+
+.item-show-product table tbody tr{
+    position: relative;
+}
+
+.item-show-product table tbody tr::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right:  0;
+    height: 1px;
+    background-color: #0088FF ;
+}
+
+

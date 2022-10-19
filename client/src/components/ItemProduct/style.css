@@ -1,0 +1,15 @@
+.left-item-product{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+
+}
+.info-product{
+    font-weight: 400;
+}
+.inventory{
+    font-size: 14px;
+}
+.title-inventory{
+    color: #a3a8af;
+}

@@ -1,0 +1,38 @@
+    .infowarehouse{
+        margin-left: 10px;
+        min-width: 300px;
+        flex: 1;
+    }
+    .list-warehouse-info{
+        display: flex;
+        flex-direction: column;
+        padding: 0 20px;
+    }
+    .item-warehouse{
+        display: flex;
+        justify-content: space-around;
+        cursor: pointer;
+        
+    }
+    .left-item-warehouse{
+        text-align: left;
+        flex: 1;
+        margin: 20px;
+    }
+    .left-item-warehouse p{
+        font-size: 16.5px;
+        color: #747C87;
+        margin: 0;
+
+    }
+    .left-item-warehouse h6{
+        font-size: 17.5px;
+        margin: 0;
+        
+
+    }
+    .icon-ware{
+        font-size: 20px;
+        margin: auto 0;
+        margin-left: 23px;
+    }

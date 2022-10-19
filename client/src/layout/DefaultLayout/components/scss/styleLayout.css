@@ -1,0 +1,23 @@
+.wrapper{
+    padding-left: 0;
+    transition: all 1s;
+}
+.wrapper.pl{
+    padding-left: 250px;
+}
+.layout-content{
+   
+    position: relative;
+}
+.content{
+    margin-left: 0;
+    margin-top: 52px;
+    height: 4000px;
+    flex: 1;
+    transition: all 1s;
+}
+@media (max-width:680px){
+    .wrapper.pl{
+        padding-left: 0;
+    }
+}
